@@ -8,7 +8,10 @@ html {
   *:after {
     box-sizing: inherit;
   }
-
+body{
+  background-color: white;
+  
+}
   body,
   h1,
   h2,
@@ -22,6 +25,7 @@ html {
     margin: 0;
     padding: 0;
     font-weight: normal;
+    font-family: sans-serif;
   }
 
  a ,li , ol , ul{
@@ -31,6 +35,8 @@ html {
   }
 
   img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     max-width: 100%;
     height: auto;
   }
@@ -41,14 +47,10 @@ html {
     flex-direction: row;
     align-items: center;
 }
-    
- .menu-li{
 
- }
  .menu-li a{
     font-weight: bold;
 }
 .button-login{
     font-weight: bold;
-    
 }
