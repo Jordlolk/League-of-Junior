@@ -1,0 +1,88 @@
+#body{
+    background-color: #000000;
+}
+.menu{
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+}
+.riot-logo{
+    display: flex;
+    align-items: center;
+}
+.riot-logo img{
+    height: 7rem;
+}
+.links{
+   margin-right: 1.2rem;
+}
+.links-click{
+    background-color: rgb(9, 19, 15);
+    border-style: groove;
+    border-color: #a7772a;
+    border-radius: 6px;
+    padding: 12px;
+}
+.links-click a{
+    color: #2ba8c7;
+}
+.title{
+    border: 4px solid #8b5d12;
+}
+.title-config{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #2ba8c7;
+    font-size: 2rem;
+    text-shadow: 5px 4px 2px rgb(0, 0, 0);
+    background-color:  rgb(20, 32, 28);
+}
+.ionia{
+    border: 8px solid rgb(0, 0, 0);
+    background-image: url(assets_img/back_ionia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+}
+.noxus{
+    border: 8px solid rgb(0, 0, 0);
+    background-image: url(assets_img/noxus_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+}
+.colum{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.champ-file{
+    display: flex;
+}
+.champions{
+    padding-top: 1rem;
+    margin-right: 25x;
+    margin-left: 25px;
+}
+.champions img{
+    box-shadow: 10px 0px 10px rgb(0, 0, 0);
+    padding: 0px;
+    border: 10px solid rgb(0, 0, 0);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.figure{
+    display: block;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    box-shadow: 10px 0px 10px rgb(0, 0, 0);
+    padding: 0px;
+}
+.figure figure{
+    margin-top: -28px;
+    font-size: 25px;
+}
